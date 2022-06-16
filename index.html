@@ -13,45 +13,82 @@
 </head>
 <body>
     <header>
-        <!-- задаем навигацию по сайту -->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <a class="navbar-brand" href="#">НЛК</a>
-          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse collapse" id="navbarCollapse" style="">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Портфолио <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Рейтинг <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link disabled" href="#">Помощь</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+        
+      <!-- задаем навигацию по сайту -->
+        
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">НЛК</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Портфолио <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Рейтинг <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link disabled" href="#">Помощь</a>
+            </li>            
+          </ul>
+      </nav>
+    </header>
 <!-- конец навигации сайта -->
 
 <!-- блок добавления работы -->
-<div class="jumbotron rounded-0">
-    <div class="container-fluid">
-        <div class="col-lg-7 col-md-11 col-xs-6">
-            <h1 class="display-3">Портфолио</h1>
-            <p>Это место, где собраны ваши научные публикации. 
-            Здесь вы можете добавлять свои научные работы, получать информацию об их уникальности и смотреть отзывы ваших научных руководителей.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Добавить работу</a></p>
-        </div>      
+<main role="main">  
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Портфолио</h1>
+      <p>Это место, где собраны ваши научные публикации. 
+        Здесь вы можете добавлять свои научные работы, получать информацию об их уникальности и смотреть отзывы ваших научных руководителей.</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Добавить работу</a></p>
     </div>
   </div>
-<!-- конец блока добавления работы -->
+  
+  <!-- Профиль -->
+ 
+  <div class="my_cont col-lg-12 col-mb-12 col-xs-6">
 
-<!-- блок загруженных данных -->
+     <!-- Первая карточка -->
+    <div class="col-lg-5 col-md-7 col-xs-6">
+      <div class="card lg-5 md-4">
+        <h5 class="card-header">Ваш профиль</h5>
+        <div class="card-body">
+          <h5 class="card-title">Сергей Павлович Фролов</h5>
+          <p class="card-text"><b>Научная степень:</b> Магистр.</p>
+          <p class="card-text"><b>Специализация:</b> Инвестиционные проблемы экономически развивающихся рынков.</p>
+          <a href="#" class="btn btn-primary">Редактировать</a>
+        </div>
+      </div>
+    </div>
 
-<!-- конец блока загруженных данных -->
+    <!-- Вторая карточка -->
+    <div class="col-lg-4 col-md-5 col-xs-6">
+      <div class="card">
+        <h5 class="card-header">Статистика</h5>
+        <div class="card-body">
+          <p class="card-text"><b>На платформе:</b> 2 года.</p>
+          <p class="card-text"><b>Добавлено работ:</b> 10.</p>
+          <p class="card-text"><b>Средняя уникальность:</b> 75%.</p>
+          <p class="card-text"><b>Языки работ:</b> русский, английский.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Таблица -->
+    
 
+  
+</main>
+
+  </main>
+  <!-- конец блока добавления работы -->
+
+  <!-- Подпись -->
 </body>
 </html>
